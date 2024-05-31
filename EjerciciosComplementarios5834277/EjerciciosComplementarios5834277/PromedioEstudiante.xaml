@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjerciciosComplementarios5834277.PromedioEstudiante"
+             Title="PromedioEstudiante">
+    <ScrollView>
+        <VerticalStackLayout Margin="30">
+
+
+            <Image Source="promedio.jpg"
+                   HeightRequest="200"
+                   WidthRequest="800"
+                                   />
+
+
+        <Entry x:Name="entry1" 
+               Placeholder="Nota 1"
+               Margin="15"
+               WidthRequest="500"/>
+        
+        <Entry x:Name="entry2" 
+               Placeholder="Nota 2"
+               Margin="15"
+               WidthRequest="500"/>
+        
+        <Entry x:Name="entry3" 
+               Placeholder="Nota 3"
+               Margin="15"
+               WidthRequest="500"/>
+        
+        <Entry x:Name="entry4" 
+               Placeholder="Nota 4"
+               Margin="15"
+               WidthRequest="500"
+               />
+        <Entry x:Name="entry5" 
+               Placeholder="Nota 5"
+               Margin="15"
+               WidthRequest="500"/>
+
+        <Entry x:Name="entryResul" 
+               Placeholder="Resultado"
+               Margin="15"
+               WidthRequest="500"
+               IsEnabled="False"
+               BackgroundColor="White"/>
+        
+        
+        <Button Text="Calcular"
+                BackgroundColor="Red"
+                TextColor="Black"
+                Clicked="Button_Clicked"
+                Margin="15"
+                WidthRequest="500"/>
+
+        <Button Text="Limpiar"
+        BackgroundColor="Red"
+        TextColor="Black"
+        Clicked="ButtonLimpiar"
+        Margin="15"
+        WidthRequest="100"/>
+
+
+
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:EjerciciosComplementarios5834277"
+             x:Class="EjerciciosComplementarios5834277.TabbPage"
+             Title="TabbPage">
+
+    
+
+    <local:DosNumeros Title="Dos Numeros"/>
+    <local:PromedioEstudiante Title="Promedio de Estudiante"/>
+    <local:Triangulo Title="Area de un triangulo"/>
+    <local:Inversos Title="Numeros Inversos"/>
+    <local:CuadradoCubo Title="Cuadrado y Cubo"/>
+
+
+
+</TabbedPage>

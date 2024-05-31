@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjerciciosComplementarios5834277.Triangulo"
+             Title="Triangulo">
+
+    <ScrollView>
+        <VerticalStackLayout Margin="70">
+
+        <Image Source="area.jpg"
+       HeightRequest="200"
+       WidthRequest="800"
+            />
+
+        <Entry x:Name="entry1" 
+               Placeholder="Area"
+               Margin="15"
+               WidthRequest="500"/>
+        
+        <Entry x:Name="entry2" 
+               Placeholder="Base" 
+               Margin="15"
+               WidthRequest="500"/>
+        
+        
+        <Entry x:Name="entryResul" 
+               Text="Superficie"
+               Placeholder="Resultado"
+               Margin="15"
+               WidthRequest="500"
+               IsEnabled="False"
+               BackgroundColor="WhiteSmoke"/>
+
+
+        <Entry x:Name="entryResul1"
+                Text="Perimetro"
+                Placeholder="Resultado"
+                Margin="15"
+                WidthRequest="500"
+                IsEnabled="False"
+                BackgroundColor="WhiteSmoke"/>
+
+        <Button Text="Calcular"
+                BackgroundColor="Orange"
+                Clicked="Button_Clicked"
+                Margin="15"
+                WidthRequest="500"/>
+
+        <Button Text="Limpiar"
+        BackgroundColor="Orange"
+        Clicked="ButtonLimpiar"
+        Margin="10"
+        WidthRequest="100"/>
+
+
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+</ContentPage>

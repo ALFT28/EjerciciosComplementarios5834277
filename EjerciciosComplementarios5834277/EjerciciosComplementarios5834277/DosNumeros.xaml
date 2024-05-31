@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjerciciosComplementarios5834277.DosNumeros"
+             Title="DosNumeros">
+
+    <ScrollView>
+        <VerticalStackLayout Margin="70">
+
+        <Image Source="suma.jpg"
+               HeightRequest="120"
+               WidthRequest="800"
+               />
+        
+
+        <Entry x:Name="entry1" 
+               Placeholder="Primer numero"
+               Margin="15"
+               WidthRequest="500"
+               />
+        
+                
+        <Entry x:Name="entry2" 
+               Placeholder="Segundo numero"
+               Margin="15"
+               WidthRequest="500"/>
+        
+
+        <Entry x:Name="entryResul" 
+        Placeholder="Resultado"
+        Margin="15"
+        IsEnabled="False"
+        BackgroundColor="WhiteSmoke"
+        WidthRequest="500"
+        
+        />
+
+
+        <Button Text="Calcular"
+               BackgroundColor="Blue"
+               Clicked="Button_Clicked"
+               TextColor="Black" 
+               Margin="15"
+               WidthRequest="500"/>
+
+        <Button Text="Limpiar"
+                BackgroundColor="Blue"
+                TextColor="Black" 
+                Margin="10"
+                WidthRequest="100"
+                Clicked="ButtonLimpiar"
+                />
+
+
+
+
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+</ContentPage>

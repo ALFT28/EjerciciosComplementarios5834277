@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjerciciosComplementarios5834277.Inversos"
+             Title="Inversos">
+
+    <ScrollView>
+        <VerticalStackLayout Margin="30">
+
+
+            <Image Source="inverso.jpg"
+                   HeightRequest="200"
+                   WidthRequest="800"
+            />
+
+        <Entry x:Name="entry1" 
+               Placeholder="Primer numero"
+               Margin="15"
+               WidthRequest="500"/>
+        
+        <Entry x:Name="entry2" 
+               Placeholder="Segundo numero"
+               Margin="15"
+               WidthRequest="500"/>
+        
+        <Entry x:Name="entry3" 
+               Placeholder="Tercer numero"
+               Margin="15"
+               WidthRequest="500"/>
+        
+        <Entry x:Name="entry4" 
+               Placeholder="Cuarto numero"
+               Margin="15"
+               WidthRequest="500"/>
+
+        <Entry x:Name="entryResul" 
+               Placeholder="Resultado"
+               Margin="15"
+               WidthRequest="500"
+               IsEnabled="False"
+               BackgroundColor="White"/>
+
+            <Button Text="Invertir"
+                BackgroundColor="White"
+                TextColor="Black"
+                Clicked="Button_Clicked"
+                Margin="15"
+                WidthRequest="500"/>
+
+            <Button Text="Limpiar"
+                BackgroundColor="White"
+                TextColor="Black"
+                Clicked="ButtonLimpiar"
+                Margin="15"
+                WidthRequest="100"/>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
